@@ -20,6 +20,11 @@ namespace GradeBook.GradeBooks
             Students = new List<Student>();
         }
 
+        public Type GradeBookType
+        {
+
+        }
+
         public void AddStudent(Student student)
         {
             if (string.IsNullOrEmpty(student.Name))
