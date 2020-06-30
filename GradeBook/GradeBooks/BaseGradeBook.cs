@@ -22,7 +22,8 @@ namespace GradeBook.GradeBooks
 
         public Type GradeBookType
         {
-
+            get;
+            set;
         }
 
         public void AddStudent(Student student)
